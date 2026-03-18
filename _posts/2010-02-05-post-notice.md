@@ -3,8 +3,7 @@ title: "Post: Notice"
 categories:
   - Blog
 tags:
-  - Post Formats
-  - notice
+  - 网站教程
 ---
 
 A notice displays information that explains nearby content. Often used to call attention to a particular detail.
@@ -31,6 +30,15 @@ When using Kramdown `{: .notice}` can be added after a sentence to assign the `.
 
 Want to wrap several paragraphs or other elements in a notice? Using Liquid to capture the content and then filter it with `markdownify` is a good way to go.
 
+通知块是一种强调或提示信息的样式，通常有背景色、边框等视觉效果，用来吸引读者注意。这篇示例文章演示了：
+
+基础用法：使用 Kramdown 的 {: .notice} 在段落末尾添加通知样式。
+
+不同颜色变体：通过 notice--primary、notice--info、notice--warning、notice--danger、notice--success 实现不同颜色的通知块。
+
+包裹多段落：使用 Liquid 的 capture 捕获多行内容，然后用 markdownify 转换为 HTML，再放入 <div class="notice"> 中，使多段内容共享一个通知样式。
+
+纯 HTML 方式：直接使用 <div class="notice"> 包裹自定义的 HTML 内容，实现同样的效果。
 ```html
 {% raw %}{% capture notice-2 %}
 #### New Site Features
