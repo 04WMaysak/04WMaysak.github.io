@@ -1,9 +1,11 @@
 title: "C++面向对象：继承与派生"
 excerpt_separator: "<!--more-->"
 categories:
-•	编程
+•	CPP 
 tags:
-•	
+•	CPP
+•	程序设计实习
+
 ________________________________________
 C++类的继承，派生，复合
 <!--more-->
@@ -39,7 +41,7 @@ class CCircle {
 cpp
 class CDog;                     // 前置声明
 class CMaster {
-    CDog * dogs[10];            // 编译器希望知道这个类有多大，但类的大小只有//定义后才知道，指针的大小确定，因此使用指针可以规避问题。
+    CDog * dogs[10];            // 编译器希望知道这个类有多大，但类的大小只有定义后才知道，指针的大小确定，因此使用指针可以规避问题。
 };
 class CDog {
     CMaster * m;                // 使用指针
