@@ -21,14 +21,14 @@
 # 网站设置
 # 这些设置用于个性化你的新站点。如果你查看 HTML 文件，会看到它们通过 {{ site.title }}、{{ site.email }} 等方式被调用。
 # 你可以创建任何自定义变量，然后在模板中通过 {{ site.myvariable }} 访问它们。
-title: MM
+title: 04WMaysak的小站
 email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+description: >- # this means to ignore newlines until "baseurl:"这些设置用于个性化你的新站点。如果你查看 HTML 文件，  会看到它们通过 {{ site.title }}、{{ site.email }}等方式被调用。你可以创建任何自定义变量，然后在模板中通过 {{ site.myvariable }} 访问它们。
+  用来记笔记和传一些感兴趣的东西的个人主页。
+  正在努力进步的零基础技术新手。
+  PKU EECS 25
+twitter_username: None__
+github_username: Maysak
 minimal_mistakes_skin: default
 search: true
 
