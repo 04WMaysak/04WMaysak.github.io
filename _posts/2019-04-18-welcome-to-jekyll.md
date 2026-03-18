@@ -23,8 +23,6 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 ```
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-查看 [Jekyll docs][jekyll-docs] 获取更多关于如何充分利用 Jekyll 的信息。所有错误/功能请求请提交到[Jekyll’s GitHub repo][jekyll-gh].。如有疑问，你可以在[Jekyll Talk][jekyll-talk]上提问。
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
