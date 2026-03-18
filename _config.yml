@@ -13,6 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+# 欢迎使用 Jekyll！
+# 此配置文件用于设置影响整个博客的全局选项，这些值你只需设置一次，之后很少需要编辑。
+# 如果你发现自己需要频繁编辑此文件，可以考虑使用 Jekyll 的数据文件功能来存放需要经常更新的数据。
+# 由于技术原因，当你使用 'bundle exec jekyll serve' 时，此文件 不会 自动重新加载。
+# 如果你修改了此文件，请重启服务器进程。
+# 网站设置
+# 这些设置用于个性化你的新站点。如果你查看 HTML 文件，会看到它们通过 {{ site.title }}、{{ site.email }} 等方式被调用。
+# 你可以创建任何自定义变量，然后在模板中通过 {{ site.myvariable }} 访问它们。
 title: MM
 email:
 description: >- # this means to ignore newlines until "baseurl:"
