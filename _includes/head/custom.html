@@ -1,14 +1,31 @@
 <style>
-body {
-  background-image: url('/assets/images/bolaven.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.page, .archive {
-  background-color: rgba(255, 255, 255, 0.85);
-  padding: 1em;
-  border-radius: 8px;
-}
+  /* 全局背景（主页等） */
+  body {
+    background-image: url('/assets/images/bolaven.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  /* 单篇文章页面：不显示背景图，使用白色背景 */
+  body.layout--single {
+    background-image: none !important;
+    background-color: #fff;
+  }
+
+  /* 文章区域半透白背景（主页和归档页生效） */
+  .page, .archive {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 1em;
+    border-radius: 8px;
+  }
+
+  /* 在单篇文章页，文章主区域背景改为白色，不加半透明 */
+  body.layout--single .page {
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* 可选：轻微阴影，让内容更突出 */
+  }
 </style>
