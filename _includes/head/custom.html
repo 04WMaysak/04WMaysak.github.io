@@ -37,15 +37,39 @@
   .layout--home .page__footer {/* 删除了页脚 */
     display: none;
 }
-  .masthead {/* 去掉白线 */
+.masthead {
     border-bottom: none;
-  body {
-  margin-top: 0;
-  padding-top: 0;
+    margin-top: 0;
+    background-color: rgba(255, 255, 255, 1);
   }
-}
+
+  body {
+    margin-top: 0;
+    padding-top: 0;
+  }
   .masthead {
     margin-top: 0;
     background-color: rgba(255, 255, 255, 1);  /* 根据你的主题设置背景色，默认白色 */
 }
 </style>
+<script>#补充了让markdown公式正确显示的脚本。
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']], // 支持 $行内公式$
+      displayMath: [['$$', '$$'], ['\\[', '\\]']], // 支持 $$块级公式$$
+      processEscapes: true,
+      digits: /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\.[0-9]*)?|\.[0-9]+)/ // 优化数字解析
+    },
+    options: {
+      ignoreHtmlClass: 'tex2jax_ignore',
+      processHtmlClass: 'tex2jax_process'
+    },
+    chtml: {
+      scale: 0.95 // 如果觉得公式太大，可以微调比例
+    }
+  };
+</script>
+
+<script id="MathJax-script" async 
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
