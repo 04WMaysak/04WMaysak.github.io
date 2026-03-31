@@ -125,3 +125,4 @@ tag_archive:
 sass:
   sass_dir: assets/css
   style: compressed
+  mathjax: true  # 在这里添加，这样所有文章默认都会加载公式脚本
