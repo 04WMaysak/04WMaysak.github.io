@@ -34,6 +34,7 @@ search: true
 
 # Build settings
 markdown: kramdown
+mathjax: true      # 补充添加了本行。告知模板需要加载 MathJax 脚本
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
