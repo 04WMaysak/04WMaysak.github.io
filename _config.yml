@@ -35,9 +35,6 @@ search: true
 # Build settings
 markdown: kramdown
 mathjax: true      # 补充添加了本行。告知模板需要加载 MathJax 脚本
-kramdown:
-  math_engine: mathjax
-  syntax_highlighter: rouge
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
@@ -128,4 +125,3 @@ tag_archive:
 sass:
   sass_dir: assets/css
   style: compressed
-  mathjax: true  # 在这里添加，这样所有文章默认都会加载公式脚本
